@@ -36,6 +36,8 @@ def log_repo_info(repo_owner: str = "wangyuxinwhy", repo_name: str = "uniem"):
     contributors = get_contributors(repo_info)
     print(f"Number of contributors 👷: {len(contributors)}")
 
+    print("Hello, world!")
+
 
 if __name__ == "__main__":
     log_repo_info()
